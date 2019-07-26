@@ -1,4 +1,4 @@
-name: Systonic
+name: Base profile
 type: profile
 description: 'Install with commonly used features pre-configured.'
 version: VERSION
@@ -41,6 +41,7 @@ install:
   - config_translation
   - content_translation
   - search_api_db
+  - devel
   - devel_generate
   - dropzonejs_eb_widget
   - entity_embed
