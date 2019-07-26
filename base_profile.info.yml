@@ -65,5 +65,5 @@ install:
   - views_autosubmit
   - webform_ui
 themes:
-  - stark
+  - base_theme
   - adminimal_theme
