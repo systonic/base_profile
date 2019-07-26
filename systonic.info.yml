@@ -1,0 +1,68 @@
+name: Systonic
+type: profile
+description: 'Install with commonly used features pre-configured.'
+version: VERSION
+core: 8.x
+install:
+  - automated_cron
+  - big_pipe
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - contextual
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - field_ui
+  - file
+  - help
+  - image
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - quickedit
+  - shortcut
+  - taxonomy
+  - toolbar
+  - views
+  - views_ui
+  - adminimal_admin_toolbar
+  - editor_advanced_link
+  - backup_migrate
+  - block_class
+  - ckeditor_templates_ui
+  - config_translation
+  - content_translation
+  - search_api_db
+  - devel_generate
+  - dropzonejs_eb_widget
+  - entity_embed
+  - focal_point
+  - honeypot
+  - image_widget_crop
+  - insert_block
+  - locale
+  - media_entity_browser
+  - menu_link_attributes
+  - metatag_open_graph
+  - metatag_views
+  - module_filter
+  - pathauto
+  - responsive_image
+  - scheduler
+  - smart_trim
+  - tarteocitron
+  - twig_vardumper
+  - update
+  - views_autosubmit
+  - webform_ui
+themes:
+  - stark
+  - adminimal_theme

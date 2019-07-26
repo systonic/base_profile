@@ -1,0 +1,11 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: two_columns
+label: 'Two columns'
+image: ''
+description: ''
+html:
+  value: "<div class=\"grid-2_sm-12\">\r\n  <div class=\"col\">\r\n    <p>Colonne 1</p>\r\n  </div>\r\n  <div class=\"col\">\r\n    <p>Colonne 2</p>\r\n  </div>\r\n</div>"
+  format: full_html
+weight: 2
