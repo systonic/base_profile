@@ -14,7 +14,7 @@ use Drupal\Core\Form\FormStateInterface;
  * Allows the profile to alter the site configuration form.
  */
 function base_profile_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
-  $form['#submit'][] = 'systonic_form_install_configure_submit';
+  $form['#submit'][] = 'base_profile_form_install_configure_submit';
 }
 
 /**
